@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "card-session-worker",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "00a113c9-4864-428c-871b-bc6726b8214d",
+			"database_name": "card-session-kv-auth-db"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
